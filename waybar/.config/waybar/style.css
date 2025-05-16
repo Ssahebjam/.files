@@ -1,0 +1,16 @@
+window#waybar {
+    background-color: transparent;
+    font-family: "JetBrainsMono Nerd Font";
+}
+window#waybar * {
+    color: #cfc5c4;
+}
+.modules-right * {
+    padding-right: 1rem;
+}
+#tray{
+    padding-right: 0.5rem;
+}
+#tray *{
+    padding-right: 0;
+}

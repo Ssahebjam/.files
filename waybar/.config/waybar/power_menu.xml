@@ -1,0 +1,10 @@
+<menu>
+    <item>
+        <label>Shutdown</label>
+        <action>systemctl poweroff</action>
+    </item>
+    <item>
+        <label>Reboot</label>
+        <action>systemctl reboot</action>
+    </item>
+</menu>
