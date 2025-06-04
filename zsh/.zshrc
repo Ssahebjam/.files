@@ -69,7 +69,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins+=( zsh-vi-mode git)
+plugins+=( git zsh-vi-mode )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,9 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='nvim'
 # fi
 
+export EDITOR='nvim'
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -102,4 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vim="nvim"
+alias v="nvim"
+alias yay="yay --noconfirm"
+alias zsh="nvim ~/.zshrc"
+alias reload="source ~/.zshrc"
+alias download="aria2c -x16"
